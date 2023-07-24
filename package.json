@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-beta.6"
+  },
+  "packageManager": "pnpm@8.6.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": "~8.6.0"
+  }
+}

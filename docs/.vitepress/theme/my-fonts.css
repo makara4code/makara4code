@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Siemreap&display=swap");
+
+@font-face {
+  font-family: "Siemreap";
+  src: url("/path-to-siemreap-font.ttf");
+  unicode-range: U+1780-17FF, U+19E0-19FF;
+}
+
+:root {
+  --vp-custom-block-font-size: 18px;
+}
+
+html[lang="kh"] {
+  --vp-font-family-base: "Siemreap", "Inter", sans-serif;
+}
