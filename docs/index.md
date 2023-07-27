@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "Makara Nuol"
-  text: "Frontend Developer"
+  name: "នល់​ មករា"
+  text: "អ្នកអភិវឌ្ឍន៍កម្មវិធី"
   actions:
     - theme: brand
-      text: More About Me
+      text: ប្រវត្តរូបសង្ខេប
       link: /about-me
 
 features:

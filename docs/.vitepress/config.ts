@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/makara4code/",
   transformHead({ assets }) {
+    // @ts-ignore
     const myFontFile = assets.find((file) => /Siemreap-Regular\.\w+\.ttf/);
     if (myFontFile) {
       return [
@@ -22,20 +23,20 @@ export default defineConfig({
   },
   locales: {
     root: {
-      label: "English",
+      label: "ខ្មែរ",
       lang: "kh",
-      title: "Makara Nuol",
+      title: "នល់ មករា",
       description: "My Personal Portfolio",
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-          { text: "Home", link: "/" },
-          { text: "More About Me", link: "/about-me" },
+          { text: "ផ្ទាំងខាងមុខ", link: "/index" },
+          { text: "ប្រវត្តរូបសង្ខេប", link: "/about-me" },
         ],
 
         sidebar: [
           {
-            items: [{ text: "About Me", link: "/about-me" }],
+            items: [{ text: "អំពីខ្ញុំ", link: "/about-me" }],
           },
         ],
 
@@ -47,21 +48,21 @@ export default defineConfig({
         ],
       },
     },
-    kh: {
-      label: "ខ្មែរ",
-      lang: "kh",
-      title: "នល់ មករា",
+    en: {
+      label: "English",
+      lang: "en",
+      title: "Makara Nuol",
       description: "My Personal Portfolio",
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-          { text: "ផ្ទាំងខាងមុខ", link: "/kh/index" },
-          { text: "ប្រវត្តរូបសង្ខេប", link: "/kh/about-me" },
+          { text: "Home", link: "/en/index" },
+          { text: "More About Me", link: "/en/about-me" },
         ],
 
         sidebar: [
           {
-            items: [{ text: "អំពីខ្ញុំ", link: "/kh/about-me" }],
+            items: [{ text: "About Me", link: "/en/about-me" }],
           },
         ],
 
