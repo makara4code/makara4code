@@ -8,8 +8,8 @@ outline: deep
 
 :::info Frontend Developer
 [ April 2022 - Present ]
+### Wing Bank Cambodia
 
-> #### Wing Bank Cambodia
 >
 > Technologies:
 >
@@ -21,8 +21,8 @@ outline: deep
 
 :::info Full Stack Developer
 [ November 2021 - April 2022 ]
-> #### A2A Digital Cambodia
->
+### A2A Digital Cambodia
+
 > Technologies:
 >
 > - **Frontend** : Nuxt 2
@@ -33,7 +33,8 @@ outline: deep
 
 :::info Full Stack Developer
 [ September 2021 - November 2021 ]
-> #### GOGO Food Delivery
+### GOGO Food Delivery
+
 >
 > Technologies:
 >
@@ -44,8 +45,8 @@ outline: deep
 
 :::info Frontend Developer
 [ November 2020 - September 2021 ]
-> #### A2A Digital Cambodia
->
+### A2A Digital Cambodia
+
 > Technologies:
 >
 > - Vue 3
