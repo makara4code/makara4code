@@ -23,7 +23,7 @@ export default defineConfig({
   locales: {
     root: {
       label: "English",
-      lang: "en",
+      lang: "kh",
       title: "Makara Nuol",
       description: "My Personal Portfolio",
       themeConfig: {
