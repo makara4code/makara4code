@@ -15,7 +15,7 @@ outline: deep
 >
 > - Vue 3 (Composition API)
 > - React JS
-> - Typescript
+> - Typescripts
 
 :::
 
